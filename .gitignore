@@ -1,0 +1,33 @@
+# Node
+node_modules/
+*.log
+npm-debug.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# CDK
+cdk.out/
+cdk.context.json
+.cdk.staging/
+
+# PlatformIO
+backend/firmwares/.pio/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Test
+coverage/
+.vitest-cache/
